@@ -1,0 +1,20 @@
+:root {
+    /* Размеры */
+    --padding: 20px;
+    --border-radius: 10px;
+
+    /* Шрифт */
+    font-size: 14px;
+    font-family: Roboto, Lato, Arial;
+}
+
+body {
+    margin: 0;
+    margin-left: var(--padding);
+    margin-right: var(--padding);
+    display: flex;
+}
+
+* {
+    box-sizing: border-box
+}
